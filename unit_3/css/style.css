@@ -8,6 +8,9 @@ color: rgb(154,178,143);
 #subhead{font-size:24;
 font-style: italic}
 
-p,ul,li{font-size: 24px; text-align: center;color: rgb(0,0,0);}
+p,ul {font-size: 24px; 
+	text-align: center;
+	color: rgb(0,0,0);
+list-style-type: none;}
 
 
