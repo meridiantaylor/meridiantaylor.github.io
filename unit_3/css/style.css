@@ -1,7 +1,13 @@
 body{background-color: rgb(255,255,255);
-	font-family: Helvetica;}
-h1{font-size: 52;
-text-align: right;
-color: rgb(87,136,152)}
+	font-family: Helvetica;
+	text-align: center;}
+h1{font-size: 72px;
+color: rgb(154,178,143);
+}
 
-p,ul,li{font-size: 24px; text-align: center;}
+#subhead{font-size:24;
+font-style: italic}
+
+p,ul,li{font-size: 24px; text-align: center;color: rgb(0,0,0);}
+
+
