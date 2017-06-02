@@ -1,5 +1,8 @@
-body, ul{background-color: rgb(87,136,152);
-text-align: center;}
-color: rgb(255,255,255);
-font-family: Helvetica, sans-serif;
-font-size: 24px;}	
+body{background-color: rgb(255,255,255);
+	font-family: Helvetica;
+	color: rgb(87,136,152)}
+h1{font-size: 52;
+text-align: right;
+}
+
+p,ul,li{font-size: 24px; text-align: center;}
