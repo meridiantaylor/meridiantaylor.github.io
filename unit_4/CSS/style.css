@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT')
 body{
 text-align: center;
-background-image: url(/images/Paris.png);}
+background-image: url(/CSS/images/Paris.png);}
 h1{font-size: 72px;
 	font-family: Old Standard TT, serif;
 color: rgb(154,178,143);
