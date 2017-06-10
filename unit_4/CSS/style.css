@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT')
+
+
 body{
 text-align: center;
-background-image: url(/CSS/images/Paris.png);}
+}
+
+img{display: block; 
+margin: auto;
+width: 100%;}
+
+
 h1{font-size: 72px;
 	font-family: Old Standard TT, serif;
 color: rgb(154,178,143);
 text-align: center;}
+
+
 
 #subhead{font-size:48px;
 font-style: italic}
