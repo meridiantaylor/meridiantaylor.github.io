@@ -1,26 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT')
 
-
 body{
-text-align: center;
-}
+text-align: center;}
 
 img{display: block; 
 margin: auto;
-width: 100%;}
-
+width: 50%;}
 
 h1{font-size: 72px;
 	font-family: Old Standard TT, serif;
-color: rgb(154,178,143);
+color: rgb(0,0,0);
 text-align: center;}
-
-
 
 #subhead{font-size:48px;
 font-style: italic}
 
-p,ul {font-size: 24px; 
+p,ul {font-size: 24px;
 	text-align: center;
 	color: rgb(0,0,0);
 list-style-type: none;}
