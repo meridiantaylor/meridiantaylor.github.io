@@ -47,10 +47,10 @@ section{background-color: #FFE2B8;
 border: 1px black solid;
 padding: 20px;}
 
-p,ul {font-size: 24px;
-	text-align: center;
-	color: rgb(0,0,0);
-list-style-type: none;}
+p{font-size: 24px;
+	
+	text-align: left
+	color: rgb(0,0,0);}
 
 #description {text-transform: uppercase;}
 
