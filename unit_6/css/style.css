@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100')
 
 body{
-	text-align: center;
-}
+text-align: center;}
 
 header{
 	background-color: #FFED74;
@@ -11,11 +10,9 @@ header{
 	font-family: 'Montserrat','sans-serif';
 }
 
-img{
-	display: block; 
-	margin: auto;
-	width: 50%;
-}
+img{display: block; 
+margin: auto;
+width: 50%;}
 
 h1{font-size: 72px;
 	
@@ -54,6 +51,37 @@ p{font-size: 24px;
 
 	text-align: left
 	color: rgb(0,0,0);}
+
+#two_column{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right{
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "section";
+	clear: both;
+	height: 0;
+}
 
 #description {text-transform: uppercase;}
 
