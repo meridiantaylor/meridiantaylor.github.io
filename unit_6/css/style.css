@@ -1,42 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100')
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display')
 
 body{
-text-align: center;}
+text-align: center;
+font-family:'Playfair Display', sans-serif;}
 
 header{
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
-	font-family: 'Montserrat','sans-serif';
+	
 }
 
-img{display: block; 
-margin: auto;
-width: 50%;}
+img{
+	display: block; 
+	margin: auto;
+	width: 50%;
+}
 
-h1{font-size: 72px;
-	
-color: rgb(0,0,0);
-text-align: center;}
+#hero{
+	display: block;
+	width: 100%;
+}
 
-h2{font-style: italic;
-text-align: center;}
+h1{
+	display: block;
+	padding: 0%;
+	font-size: 72px;
+	color: rgb(0,0,0);
+	text-align: center;
+}
 
-nav{background-color: #E8C66A;
+h2{
+	text-transform: uppercase;
+text-align: center;
+}
+
+nav{
+	display: block;
+	background-color: #E8C66A;
 	border: 1px black solid
 	padding: 20px;
 	text-align: center;
-font-family: 'Montserrat'}
+	font-family: 'playfair display', sans-serif;
+	margin: 1.8em;
+	float: left
+	width: 100%;
+}
 
 aside{background-color: #FFC675;
 		border: 1px black solid;
 		padding: 20px;
 		text-align: right;}
 
+#bio{border-radius: 50%;
+}
+
 article{background-color: #E89C6C;
 border: 1px black solid;
 padding: 20px;
-text-align: left;}
+text-align: left;
+font-family: 'playfair display', sans-serif;
+}
 
 footer{background-color: #FF957E;
 border: 1px black solid;
@@ -51,6 +75,11 @@ p{font-size: 24px;
 
 	text-align: left
 	color: rgb(0,0,0);}
+
+nav{
+	
+	
+}
 
 #two_column{
 	background-color: #FFB7CF;
