@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display')
+
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 body{
-text-align: center;
-font-family:'Playfair Display', sans-serif;}
+	text-align: center;
+	font-family:'Playfair Display', sans-serif;}
 
 header{
 	background-color: #FFED74;
-	border: 1px black solid;
 	padding: 20px;
+	background-image: url(../images/dc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
 	
 }
 
 img{
 	display: block; 
 	margin: auto;
-	width: 50%;
+	width: 100%;
+	border-radius: 50%;
 }
 
-#hero{
-	display: block;
-	width: 100%;
-}
 
 h1{
 	display: block;
@@ -32,78 +34,66 @@ h1{
 
 h2{
 	text-transform: uppercase;
-text-align: center;
+	text-align: center;
 }
 
 nav{
 	display: block;
-	background-color: #E8C66A;
 	border: 1px black solid
-	padding: 20px;
+	padding: 0px;
 	text-align: center;
-	font-family: 'playfair display', sans-serif;
-	margin: 1.8em;
+	margin: .8em;
 	float: left
 	width: 100%;
+	font-size: 30px;
 }
 
-aside{background-color: #FFC675;
-		border: 1px black solid;
+aside{
 		padding: 20px;
-		text-align: right;}
+		text-align: right;
+		border-radius: 50%%;}
 
-#bio{border-radius: 50%;
+article{
+	padding: 20px;
+	text-align: left;
+	font-family: 'playfair display', sans-serif;
+	}
+
+footer{
+	background-color: #AA98AF;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	font-size: 15px;
 }
 
-article{background-color: #E89C6C;
-border: 1px black solid;
-padding: 20px;
-text-align: left;
-font-family: 'playfair display', sans-serif;
-}
+section{
+	padding: 20px;}
 
-footer{background-color: #FF957E;
-border: 1px black solid;
-padding: 20px;
-text-align: center;}
-
-section{background-color: #FFE2B8;
-border: 1px black solid;
-padding: 20px;}
-
-p{font-size: 24px;
-
+p{
+	font-size: 24px;
 	text-align: left
 	color: rgb(0,0,0);}
 
-nav{
-	
-	
-}
-
 #two_column{
-	background-color: #FFB7CF;
-	border: 1px black solid;
 	padding: 20px;
 }
 
 #left{
-	background-color: #E582A2;
-	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 30%;
 }
 
 #right{
-	background-color: #E55B88;
-	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 62%;
+	width: 60%;
 }
 
-.clearfix:after{
+.clearfix:after
+{
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -112,6 +102,5 @@ nav{
 	height: 0;
 }
 
-#description {text-transform: uppercase;}
 
 
