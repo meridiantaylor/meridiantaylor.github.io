@@ -1,0 +1,111 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body{
+	text-align: center;
+	font-family:'Playfair Display', sans-serif;
+	font-size: 16px;}
+
+header{
+	background-color: #FFED74;
+	padding: 5%;
+	background-image: url(../images/dc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 20%;
+	border: 1px black solid;
+	
+}
+
+img{
+	display: block; 
+	margin: auto;
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+h1{
+	display: block;
+	padding: 0%;
+	font-size: 4.5em;
+	color: rgb(0,0,0);
+	text-align: center;
+}
+
+h2{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav{
+	display: block;
+	padding: 1%;
+	text-align: center;
+	margin: 2em;
+	float: left
+	width: 100%;
+	font-size: 2em;
+}
+
+aside{
+		padding: 10%;
+		text-align: right;
+		border-radius: 50%;
+		
+	}
+
+article{
+	padding: 20%;
+	text-align: left;
+	font-family: 'playfair display', sans-serif;
+
+	}
+
+footer{
+	background-color: #AA98AF;
+	padding: 1%;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	font-size: 1em;
+	height: 5%;
+}
+
+section{
+	padding: 20%;}
+
+p{
+	font-size: 1.5em;
+	text-align: left
+	color: rgb(0,0,0);}
+
+#two_column{
+	padding: 10%;
+}
+
+#left{
+	padding: 0%;
+	float: left;
+	width: 30%;
+}
+
+#right{
+	padding: 0px;
+	float: right;
+	width: 60%;
+}
+
+@media only screen and (max-width: 700px) {
+
+		#left{
+		float: none;
+		width: auto;
+	}
+
+	#right{
+		width: auto;
+	}
+}
+
