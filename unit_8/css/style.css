@@ -9,11 +9,11 @@ body{
 
 header{
 	padding: 5%;
-	background-image: url(../images/dc.jpg);
+	background-image: url(../images/dc.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 20%;
-	border: 1px black solid;
+	height: 30%;
+
 	
 }
 
@@ -27,9 +27,8 @@ img{
 
 h1{
 	display: block;
-	padding: 0%;
 	font-size: 4.5em;
-	color: rgb(0,0,0);
+	color: black;
 	text-align: center;
 }
 
@@ -70,10 +69,12 @@ footer{
 	display: inline-block;
 	font-size: 1em;
 	height: 5%;
+	color: white;
 }
 
 section{
-	padding: 20%;}
+	padding: 10%;
+}
 
 p{
 	font-size: 1.5em;
@@ -82,6 +83,7 @@ p{
 
 #two_column{
 	padding: 10%;
+	height: 60%;
 }
 
 #left{
